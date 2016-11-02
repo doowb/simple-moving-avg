@@ -50,7 +50,7 @@ function sma(arr, n, center) {
 
 /**
  * Calculate the simple moving average of a given array and using a subset of `n` elements.
- * The subset is calculated around the current index using `{i - ceil(n/2) .. i + ceil(n/2)}. This requires that `n` is odd to have a balanced number of items on either side of `i`.
+ * The subset is calculated around the current index using `{i - ceil(n/2) .. i + ceil(n/2)}`. This requires that `n` is odd to have a balanced number of items on either side of `i`.
  * Note that elements that cannot be calculated because of not enough items in the subset will be set to 0
  *
  * ```js
