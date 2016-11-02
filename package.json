@@ -11,7 +11,8 @@
   "license": "MIT",
   "files": [
     "index.js",
-    "LICENSE"
+    "LICENSE",
+    "README.md"
   ],
   "main": "index.js",
   "engines": {
@@ -19,6 +20,14 @@
   },
   "scripts": {
     "test": "mocha"
+  },
+  "dependencies": {
+    "array-avg": "^0.1.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11",
+    "mississippi": "^1.2.0",
+    "mocha": "^3.1.2"
   },
   "keywords": [
     "arr",
@@ -43,14 +52,6 @@
     "simple-rolling-average",
     "simple-rolling-avg"
   ],
-  "dependencies": {
-    "array-avg": "^0.1.0"
-  },
-  "devDependencies": {
-    "gulp-format-md": "^0.1.11",
-    "mississippi": "^1.2.0",
-    "mocha": "^3.1.2"
-  },
   "verb": {
     "toc": false,
     "layout": "default",
