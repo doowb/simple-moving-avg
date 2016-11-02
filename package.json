@@ -25,5 +25,8 @@
   ],
   "dependencies": {
     "array-avg": "^0.1.0"
+  },
+  "devDependencies": {
+    "mississippi": "^1.2.0"
   }
 }
