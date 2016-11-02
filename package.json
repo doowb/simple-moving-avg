@@ -27,6 +27,7 @@
     "array-avg": "^0.1.0"
   },
   "devDependencies": {
-    "mississippi": "^1.2.0"
+    "mississippi": "^1.2.0",
+    "mocha": "^3.1.2"
   }
 }
