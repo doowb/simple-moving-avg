@@ -21,13 +21,56 @@
     "test": "mocha"
   },
   "keywords": [
-    "generategenerator"
+    "arr",
+    "arr-average",
+    "arr-avg",
+    "array",
+    "array-average",
+    "array-avg",
+    "average",
+    "average-arr",
+    "avg",
+    "avg-arr",
+    "avg-array",
+    "floating",
+    "moving",
+    "rolling",
+    "simple",
+    "simple-floating-average",
+    "simple-floating-avg",
+    "simple-moving-average",
+    "simple-moving-avg",
+    "simple-rolling-average",
+    "simple-rolling-avg"
   ],
   "dependencies": {
     "array-avg": "^0.1.0"
   },
   "devDependencies": {
+    "gulp-format-md": "^0.1.11",
     "mississippi": "^1.2.0",
     "mocha": "^3.1.2"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": [
+        "array-avg"
+      ]
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ]
   }
 }
