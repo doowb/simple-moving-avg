@@ -27,6 +27,10 @@ function sma(arr, n, center) {
     return sma.center(arr, n);
   }
 
+  if (!Array.isArray(arr)) {
+    throw new Error('expected first argument to be an array');
+  }
+
   var calc = sma.calc(n);
   var res = [];
   var len = arr.length;
@@ -60,6 +64,10 @@ function sma(arr, n, center) {
  */
 
 function center(arr, n) {
+  if (!Array.isArray(arr)) {
+    throw new Error('expected first argument to be an array');
+  }
+
   var calc = sma.calc(n);
   var center = Math.ceil(n / 2);
   var res = [];
