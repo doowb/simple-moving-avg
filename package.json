@@ -22,5 +22,8 @@
   },
   "keywords": [
     "generategenerator"
-  ]
+  ],
+  "dependencies": {
+    "array-avg": "^0.1.0"
+  }
 }
